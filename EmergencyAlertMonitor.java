@@ -5,7 +5,6 @@ public class EmergencyAlertMonitor extends Thread {
         this.patient = patient;
     }
 
-    @Override
     public void run() {
         while (true) {
             if (patient.tracker.moodEntry.getMoodLevel() < 2) {
