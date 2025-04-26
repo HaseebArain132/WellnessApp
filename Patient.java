@@ -6,7 +6,6 @@ public class Patient extends User {
         this.tracker = new WellnessTracker();
     }
 
-    @Override
     void displayInfo() {
         System.out.println("Patient: " + name);
     }
